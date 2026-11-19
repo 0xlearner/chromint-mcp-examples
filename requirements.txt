@@ -1,0 +1,4 @@
+fastmcp>=4.1.8,<5
+apify-client>=3.5.1,<4
+lxml>=6.0
+loguru>=0.8

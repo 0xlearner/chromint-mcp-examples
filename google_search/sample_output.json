@@ -1,0 +1,223 @@
+{
+  "_note": "Trimmed from a real run (20 Nov 2026): 3 of 28 organic results, 4 of 24 related searches. Google session parameters removed from links.",
+  "query": "how does recaptcha work",
+  "fetched_at": "2026-11-19T20:44:05+00:00",
+  "params": {
+    "pages": 3,
+    "country": "US",
+    "language": "en",
+    "proxy": "residential",
+    "format": "html"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.google.com/search?q=how+does+recaptcha+work&hl=en&gl=us",
+      "ok": true,
+      "http_status": 200,
+      "chars": 1027219,
+      "chunks": 6,
+      "organic": 8,
+      "features": [
+        "AI Overview",
+        "Web results",
+        "People also ask",
+        "What people are saying",
+        "People also search for"
+      ]
+    },
+    {
+      "page": 2,
+      "url": "https://www.google.com/search?q=how+does+recaptcha+work&hl=en&gl=us&start=10",
+      "ok": true,
+      "http_status": 200,
+      "chars": 421399,
+      "chunks": 3,
+      "organic": 10,
+      "features": [
+        "Web results",
+        "People also search for"
+      ]
+    },
+    {
+      "page": 3,
+      "url": "https://www.google.com/search?q=how+does+recaptcha+work&hl=en&gl=us&start=20",
+      "ok": true,
+      "http_status": 200,
+      "chars": 409153,
+      "chunks": 3,
+      "organic": 10,
+      "features": [
+        "Web results",
+        "People also search for"
+      ]
+    }
+  ],
+  "organic": [
+    {
+      "title": "What is CAPTCHA? Definition, Types & How It Works",
+      "source": "HUMAN Security",
+      "displayed_url": "https://www.humansecurity.com › learn › topics › what...",
+      "url": null,
+      "breadcrumb_url": "https://www.humansecurity.com/learn/topics/what",
+      "breadcrumb_truncated": true,
+      "google_link": "https://www.google.com/goto?url=CAESegHEIkXXoxRhkDGcrSW_pytQT_t9fH99x-Nb1MnF0sqkByI4zLvmS6X_1w3VqTENv69NQXbWRPlifWoYdo2KDO_5DftF6fVzB2oiVUxjUKsPadDiV0v1IMIJX1sFy5YGD_43hC4eRRoXN-iBkh6KBxm-m_-mDYrO-wh_",
+      "date": null,
+      "snippet": "Modern versions of reCAPTCHA often verify users behind the scenes, allowing many legitimate visitors to proceed without completing a visible challenge.",
+      "meta": null,
+      "sitelinks": [],
+      "block_position": 1,
+      "position": 1,
+      "page": 1,
+      "rank": 1
+    },
+    {
+      "title": "How reCAPTCHA Works",
+      "source": "Facebook",
+      "displayed_url": "https://www.facebook.com › fb-answers › how-recaptc...",
+      "url": null,
+      "breadcrumb_url": "https://www.facebook.com/fb-answers/how-recaptc",
+      "breadcrumb_truncated": true,
+      "google_link": "https://www.google.com/goto?url=CAESggEBxCJF11s64Hkce-jCgNYrqD1elPLte6d7zV8Y-PjbVgALYlT1yJqKveBaxK-GT2Rg_E06faLj1GigTcYcERgjbkfy2ph9a2dHhHc8vwAFdT3WzFtP9OhfySRhLO7WSr4FX3dCoMmmjsJMryLa5SiyKFSjkex2fo0K3ZJ1jVnUntzF",
+      "date": null,
+      "snippet": "reCAPTCHA isn't just a checkbox—it's Google's behavioral analysis system that scores how likely you are to be human. If you pass, you get through; if not, ...",
+      "meta": null,
+      "sitelinks": [],
+      "block_position": 4,
+      "position": 2,
+      "page": 1,
+      "rank": 2
+    },
+    {
+      "title": "How does Captcha work? How do 'robots' not recognize ...",
+      "source": "Quora",
+      "displayed_url": null,
+      "url": null,
+      "breadcrumb_url": null,
+      "breadcrumb_truncated": null,
+      "google_link": "https://www.google.com/goto?url=CAESmQEBxCJF1_DgcQLyao4DkY5w9Ah9Y33NXpAao1TAi_fBirUKu-KmrJa1JHOXv5OTcAx2wCX4k5uZh_cNZG-cs-_F_GxrVZweKvr4r2SFk3rIvnCvzJgSTSU5J73zMRAU0sARQh9iva3TsFyvtJCOaxfPsQieRYWDaNKbuF-f5gS6uBbb00oWurYedNf8APu40WsGi73JPFb6KqA",
+      "date": null,
+      "snippet": "How does Captcha work? How do ‘robots’ not recognize the letters/pictures?",
+      "meta": "30+ answers · 7 years ago",
+      "sitelinks": [
+        {
+          "title": "36 answers",
+          "link": "https://www.google.com/goto?url=CAESqwEBxCJF177M7w1zbk05asN-PsId_aWqUgM1mBtz6H8Kt11y5Os7K8LtQbe5hGf83K80XKNTdzzUP8XIPnGXKwZlh4-tFaho0FJXnBz09QTDLlPaKFrtV_YyAyrY_4Xv7yaHUB3gptWceuQOMx9Ml91QZ0eBLVFD3zPmwvcv3BQeBmt3vhcgFXIvzuV-zhCpbTTIJa4ymA9wTdeZLMS3Zy0aihTKoGzOInUr9qg"
+        }
+      ],
+      "block_position": 6,
+      "position": 3,
+      "page": 1,
+      "rank": 3
+    }
+  ],
+  "ai_overview": {
+    "markdown": "Google reCAPTCHA distinguishes human users from automated bots by analyzing user behavior, browser data, and device signals before, during, and after an interaction on a webpage.\n\n### How reCAPTCHA Works by Version\n\n- reCAPTCHA v2 (The Checkbox & Challenges):\n  - When you visit a site, the system monitors background indicators like your mouse movements, typing speed, and browser cookies.\n  - Human mouse paths tend to be curved, erratic, and variable in speed, whereas bot movements are typically straight, linear, and uniform.\n  - If the risk analysis engine considers you low-risk, clicking the \"I'm not a robot\" checkbox immediately passes you. If the system is unsure, it triggers a visual or audio challenge (such as selecting all images containing traffic lights).\n- reCAPTCHA v3 (Invisible Analysis):\n  - This version runs completely in the background without showing a checkbox or interrupting the user.\n  - It evaluates overall site interactions and assigns a risk score from 0.0 (likely a bot) to 1.0 (likely a human), allowing the website owner to decide how to handle the traffic (e.g., block, allow, or require 2FA).\n\n### What Data Does It Check?\n\n- Behavioral telemetry: Mouse trajectories, click patterns, and keystroke rhythms.\n- Environment & Device info: IP address, screen resolution, browser version, user-agent, canvas rendering, and cookies.\n- Session history: Whether you are logged into a Google account or have active browser history.\n\nLearn more about managing or implementing these tools on the Google reCAPTCHA Developer Page or read an overview on Wikipedia's reCAPTCHA Entry.\n\nThis short video breaks down how reCAPTCHA uses cursor tracking and AI to detect human versus bot behavior:\n\nWould you like to know how to add reCAPTCHA to a specific website or explore alternatives like Cloudflare Turnstile?",
+    "headings": [
+      "How reCAPTCHA Works by Version",
+      "What Data Does It Check?"
+    ],
+    "entities": [
+      "\"I'm not a robot\"",
+      "Behavioral telemetry:",
+      "Environment & Device info:",
+      "Session history:",
+      "add reCAPTCHA to a specific website",
+      "alternatives like Cloudflare Turnstile",
+      "reCAPTCHA v3 (Invisible Analysis):"
+    ],
+    "sources": [
+      {
+        "title": "ELI5: How does the google's \"I am not a robot\" reCAPTCHA work ... - Reddit",
+        "google_link": "https://www.google.com/goto?url=CAESowEBxCJF15SCQr7NbwyCDnpBOKfVdfsOKRYSsaqpOY6iXeUIPKLSY-IQsPhcemu3-Urpx24hOXT6TR0Sen7Q5TfESHcKRzJdHX7fJMKbQ74-TeRyDihzkF0dhu-O15Qh4T77dD8WH1-AoLgeTlW3gMDerTAOd9hxu38k58sRgZWZNRirMDP4jLLkwSDSpF1DHqiWQLKoaHbHRReO5WIR8ewUHjBT"
+      },
+      {
+        "title": "reCAPTCHA - Wikipedia",
+        "google_link": "https://www.google.com/goto?url=CAESZAHEIkXXVSt0XBlfA0ggBQWxsRZqbpWN5jRld_Gu50_yuOVlunfkhXPS9JkyMEsCLjoOIxzfS5q87i0PrJmfGEk-Esg_OCJX2UDiywytHDFcOdChFvV2W-uzYpO_Ztns-RnjiVI"
+      },
+      {
+        "title": "reCAPTCHA Help",
+        "google_link": "https://support.google.com/recaptcha/?hl=en"
+      }
+    ],
+    "cited_urls": [
+      "https://www.reddit.com/r/explainlikeimfive/comments/8lyaj5/eli5_how_does_the_googles_i_am_not_a_robot/",
+      "https://en.wikipedia.org/wiki/ReCAPTCHA",
+      "https://www.youtube.com/shorts/AMkIOE9EffE",
+      "https://www.radware.com",
+      "https://www.youtube.com/watch?v=GP4GzOKtDjI&t=52",
+      "https://www.cloudflare.com",
+      "https://www.youtube.com/watch?v=XnL9mia_OOE&t=441"
+    ],
+    "chars": 1835
+  },
+  "knowledge_panel": null,
+  "people_also_ask": [
+    "What's the point of reCAPTCHA?",
+    "How to allow reCAPTCHA?",
+    "Why is Google forcing me to do CAPTCHA?",
+    "How do I find my CAPTCHA?"
+  ],
+  "discussions": [
+    {
+      "page": 1,
+      "summary": "Camera gesture verification sparks privacy fears Reports that Google is testing hand gesture verification via webcam spark intense privacy concerns and AI training backlash.",
+      "posts": [
+        {
+          "title": "Google is reportedly testing a reCAPTCHA that makes you open your camera and do hand gestures",
+          "google_link": "https://www.google.com/goto?url=CAESngEBxCJF18nypCoJgRPEVj2kUi7CZh5L-qjAltLzUkyphbEmBIfAQaCj92NLXiB03Hc-RfESAYd6PrHH77xIaek457Dwgdbskfvq1aGubo9yHRVb4dplfV1d43G5Qi81f2W59ck41h44H4h78PzZquOizpnydK4Bf9v4pNTdngnNM93Hm9Fv8VryCUMFqLM9r-VaCCE4moYp2BTOQQUXGA",
+          "comments": "70+ comments",
+          "date": "Sep 21, 2026",
+          "community": "r/TechNook",
+          "platform": "Reddit"
+        },
+        {
+          "title": "reCAPTCHA started by making you label street signs for their AI for free. Now they are testing a new version that wants your hand geometry on camera. But: There is a free, open-source alternative that website owners should consider instead of using reCAPTC",
+          "google_link": "https://www.google.com/goto?url=CAESmwEBxCJF18KsUzs7y55DeL-Qy1QwPf7DofX4l6FV8ByLGeaLggLx0fg13l4UeHMXRYsXgpYuI11YZcySUpz8e-VX-dWUrgH1s5Rqtu1VhWpRjRi0y6EprP29ANPLybN9LFOS_g5kjcpogQG1U7w7OnCn4vDU_7QmuoHm6F5W69OWqORvtLsC2TelpLgj1Gc-e1nzXRGOyn7nKwPv4Q",
+          "comments": "6 comments",
+          "date": "Jun 22, 2026",
+          "community": "r/xprivo",
+          "platform": "Reddit"
+        },
+        {
+          "title": "What is this Google Captcha?!",
+          "google_link": "https://www.google.com/goto?url=CAESigEBxCJF18x4ifpZCv63NMFINrTZyT3phejt-GjoSuttzFHhgINnaA7uEk1s7ZaGPrf73S_cnyce8S46pCPzPU_rObFRsu83DVNZMjtViKI1OB-ZkHVzOW-Vmc9NcfqvSjmL5uUty7QDEhsGXt0bdxu7vBhW0Wrn5kNWC8m6vd7aDC7bva9k1vdLTqI",
+          "comments": "50+ comments",
+          "date": "Jul 21, 2026",
+          "community": "r/google",
+          "platform": "Reddit"
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "things_to_know": [],
+  "related_searches": [
+    {
+      "query": "Do CAPTCHAs work",
+      "link": "https://www.google.com/search&hl=en&gl=us&q=Do+CAPTCHAs+work&sa=X"
+    },
+    {
+      "query": "How does human verification work",
+      "link": "https://www.google.com/search&hl=en&gl=us&q=How+does+human+verification+work&sa=X"
+    },
+    {
+      "query": "What is CAPTCHA example",
+      "link": "https://www.google.com/search&hl=en&gl=us&q=What+is+CAPTCHA+example&sa=X"
+    },
+    {
+      "query": "CAPTCHA code",
+      "link": "https://www.google.com/search&hl=en&gl=us&q=CAPTCHA+code&sa=X"
+    }
+  ],
+  "ads": [],
+  "stats": {
+    "seconds": 8.9,
+    "tool_calls": 12,
+    "events": {
+      "fetch": 3
+    },
+    "event_cost_usd": 0.0045,
+    "unique_organic": 26
+  }
+}
