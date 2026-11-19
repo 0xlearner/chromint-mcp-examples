@@ -40,9 +40,10 @@ _SPACE = re.compile(r"\s+")
 _DEFERRED = re.compile(r"\{id:'([^']+)'\},function\(\)\{jsl\.dh\(this\.id,'((?:[^'\\]|\\.)*)'\);\}")
 _JS_ESCAPE = re.compile(r"\\(x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4}|.)", re.S)
 #: "Feb 27, 2026 — snippet" / "3 days ago — snippet"
-_DATED = re.compile(r"^(?P<date>[A-Z][a-z]{2} \d{1,2}, \d{4}|\d+ (?:hours?|days?|weeks?) ago) — ")
+_AGO = r"\d+ (?:minutes?|hours?|days?|weeks?|months?|years?) ago"
+_DATED = re.compile(rf"^(?P<date>[A-Z][a-z]{{2}} \d{{1,2}}, \d{{4}}|{_AGO}) — ")
 _DURATION = re.compile(r"^\d{1,2}(?::\d{2}){1,2}$")
-_DATE = re.compile(r"^[A-Z][a-z]{2} \d{1,2}, \d{4}$|^\d+ (?:hours?|days?|weeks?|months?) ago$")
+_DATE = re.compile(rf"^[A-Z][a-z]{{2}} \d{{1,2}}, \d{{4}}$|^{_AGO}$")
 _URL_IN_DATA = re.compile(r'"(https?://[^"\s]+)"')
 
 
@@ -454,7 +455,15 @@ def discussions(doc: Any) -> dict[str, Any] | None:
             ]
             body = [t for t in dict.fromkeys(body) if t not in _SEPARATORS]
             out["summary"] = " ".join(body) or None
-        out["posts"] += [_card_item(h, c) for h, c in _cards(block)]
+        for heading, card in _cards(block):
+            post = _card_item(heading, card)
+            # A post can carry its title twice (link and expanded view): keep
+            # one, with the link.
+            same = next((p for p in out["posts"] if p["title"] == post["title"]), None)
+            if same is None:
+                out["posts"].append(post)
+            elif not same.get("google_link"):
+                same.update(post)
     return out
 
 
