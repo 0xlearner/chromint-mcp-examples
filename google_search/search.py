@@ -1,8 +1,9 @@
 """Google search through the chromint MCP server on Apify, end to end.
 
 For each query: fetch the results page, follow what the server says to do
-next (`block.next`: Google answers a fresh client with reCAPTCHA, so the
-first step is a `mint_session` in a real Chrome on the browser worker),
+next (`block.next`: Google answers a fresh client with a JavaScript check
+or reCAPTCHA, so the first step is a `mint_session` in a real Chrome on the
+browser worker),
 fetch every page on that session, read each page's HTML in `cursor` chunks
 (free), parse it (`serp.py`) and write one JSON file per query. Every tool
 call is logged with its time, outcome and price; at the end the run's real

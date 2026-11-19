@@ -10,7 +10,8 @@ python google_search/search.py "best web scraping api" "eiffel tower" --pages 3
 ## How it works
 
 1. `fetch` the results page through a residential exit. Google answers a
-   fresh client with a reCAPTCHA page (HTTP 200). The server reports it as
+   fresh client with its JavaScript check (HTTP 200, no results), or now and
+   then with reCAPTCHA's `/sorry` page (HTTP 429). The server reports both as
    `block.status: challenged` and names the next call in `block.next`:
    `mint_session`.
 2. `mint_session` runs a real Chrome on the browser worker, gets past the
@@ -71,10 +72,12 @@ query, `calls.jsonl` (one line per tool call), `costs.json`,
 
 Once a session exists, a page costs about $0.003 (the `fetch` event plus
 residential proxy). A session is the expensive part: about $0.07 when the
-first mint works, $0.11 on average over 9 mint jobs of which 5 failed (exits
-already burned by reCAPTCHA). A failed mint charges no event but its
-platform usage ($0.02-0.06) is paid, and in one test run all three mints
-failed: $0.12 for no page. `--max-mints` caps that.
+first mint works, $0.087 on average over 16 mint jobs in one day, 5 of which
+failed (every exit tried was already burned by reCAPTCHA). A failed mint
+charges no event but its platform usage ($0.02-0.06) is paid. Failures come
+in stretches: one test run lost all three mints, $0.12 for no page, and
+twenty minutes later six mints in a row worked first time. `--max-mints`
+caps a bad stretch.
 
 ## Things to know
 

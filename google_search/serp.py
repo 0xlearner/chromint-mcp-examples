@@ -588,8 +588,10 @@ _NOT_FEATURES = {
     "Previous",
     "Complementary Results",
 }
-#: The "How helpful were the results?" survey Google sometimes appends.
-_FEEDBACK = re.compile(r"helpful|tell us|feedback", re.IGNORECASE)
+#: The surveys Google sometimes appends ("How helpful were the results on
+#: Google Search?", "How visually appealing is the design on this page?").
+#: Block titles never end in a question mark; survey questions do.
+_FEEDBACK = re.compile(r"\?$|helpful|tell us|feedback", re.IGNORECASE)
 
 
 def features(doc: Any) -> list[str]:
